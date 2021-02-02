@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: solid 1px #464646;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Calibri, sans-serif;
+    background-color: #f1f1f1;
+    color: #464646;
+}
+
+main {
+    width: 720px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #8e8e91;
+    border-radius: 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#buttons td {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: azure;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: small;
+    color: #a2a2a2;
+}

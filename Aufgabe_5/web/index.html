@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="sliderGame.js"></script>
+    <title>Verschiebespiel</title>
+</head>
+<body>
+<div class="container mt-5 w-25" id="login">
+    <div id="playerInputForm">
+        <div class="form-group mt-2">
+            <label for="playerName">Player name</label>
+            <input type="text" class="form-control" id="playerName" placeholder="Player name" value="">
+        </div>
+        <button type="submit" class="btn btn-success" id="submitButton">Submit</button>
+    </div>
+</div>
+
+<div class="container mt-5 w-25" id="showPlayerName">
+    <a class="text-field" id="playerNameField">No name</a>
+</div>
+
+<div class="container" id="gameBoard">
+    <div class="container mt-5 w-50">
+        <div class="row mt-2">
+            <div class="col mt-1">
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_1"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;;"
+                        id="button_2"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_3"></button>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col">
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_4"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_5"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_6"></button>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col">
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_7"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_8"></button>
+                <button type="button" class="number btn btn-secondary" style="width: 10rem; height: 10rem;"
+                        id="button_9"></button>
+            </div>
+        </div>
+        <p class="text">Anzahl der Verschiebungen:
+            <a id="counter"></a>
+        </p>
+    </div>
+    <button type="button" class="btn btn-block btn-danger mt-2" id="newGameButton">start</button>
+    <ul class="list-group mt-2">SpielerListe:
+        <li class="list-group-item" id="playerList" style="word-break: break-all;">Kein Spieler vorhanden</li>
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="sliderGame.xslt"?>
+<sliderGame>
+    <title>Verschiebespiel</title>
+    <table>
+        <row>
+            <box>
+                <number>1</number>
+            </box>
+            <box>
+                <number>2</number>
+            </box>
+            <box>
+                <number>3</number>
+            </box>
+        </row>
+        <row>
+            <box>
+                <number>4</number>
+            </box>
+            <box>
+                <number>5</number>
+            </box>
+            <box>
+                <number>6</number>
+            </box>
+        </row>
+        <row>
+            <box>
+                <number>7</number>
+            </box>
+            <box>
+                <number>8</number>
+            </box>
+            <box>
+                <number></number>
+            </box>
+        </row>
+    </table>
+    <counter>
+        <headerCount>Anzahl der Verschiebungen:</headerCount>
+        <count>0</count>
+    </counter>
+</sliderGame>
